@@ -1,13 +1,17 @@
 # pcout
 Running pcout
 > library(mvoutlier)
+
 Loading required package: sgeostat
 sROC 0.1-2 loaded
 Warning messages:
 1: package ‘mvoutlier’ was built under R version 3.3.3 
 2: package ‘sgeostat’ was built under R version 3.3.2 
+
 > tData <- read.csv('pulli_uns.txt', head=T, row.names=1, stringsAsFactors=T, na.strings=c('',' ','NA'))
+
 > pcout(tData)
+
 $wfinal01
 Pulliyar:PULD151 Pulliyar:PULD160 Pulliyar:PULD162 Pulliyar:PULD172 
                0                1                1                1 
